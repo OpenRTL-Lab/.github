@@ -1,4 +1,7 @@
-<img src="https://raw.githubusercontent.com/OpenRTL-Lab/.github/main/assets/openrtl-logo.png?v=2" width="96" height="96" alt="OpenRTL 像素 Logo：亮蓝色芯片与黄色闪电">
+<picture>
+  <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/OpenRTL-Lab/.github/main/assets/openrtl-logo.png?v=3">
+  <img src="https://raw.githubusercontent.com/OpenRTL-Lab/.github/main/assets/openrtl-logo.gif?v=3" width="128" height="128" alt="OpenRTL 像素 Logo：亮蓝色芯片与黄色闪电">
+</picture>
 
 # OpenRTL
 
