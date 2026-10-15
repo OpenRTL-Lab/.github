@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/OpenRTL-Lab/.github/main/assets/openrtl-logo.png" width="96" height="96" alt="OpenRTL pixel logo: an open chip with the letter R">
+<img src="https://raw.githubusercontent.com/OpenRTL-Lab/.github/main/assets/openrtl-logo.png?v=2" width="96" height="96" alt="OpenRTL pixel logo: a bright blue chip with a yellow lightning bolt">
 
 # OpenRTL
 
