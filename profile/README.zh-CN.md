@@ -1,3 +1,5 @@
+<img src="https://raw.githubusercontent.com/OpenRTL-Lab/.github/main/assets/openrtl-logo.png" width="96" height="96" alt="OpenRTL 像素 Logo：带有字母 R 的开放芯片">
+
 # OpenRTL
 
 **从算法到 RTL，构建开放、可复用、可验证的数字硬件。**
@@ -9,7 +11,7 @@ OpenRTL 发布开放、可复用、可验证的数字硬件，注重可读的 RT
 
 ## 已发布项目
 
-### [ZK 硬件加速器集合](https://github.com/XLxiaoliaoGmail/zk-accelerators)
+### [ZK 硬件加速器集合](https://github.com/OpenRTL-Lab/zk-accelerators)
 
 涵盖 **11 类独立的 Chisel 零知识计算加速器**，提供生成好的 SystemVerilog，
 通过原生接口供用户集成到 ASIC 或 FPGA 设计。
@@ -21,7 +23,7 @@ OpenRTL 发布开放、可复用、可验证的数字硬件，注重可读的 RT
 | 哈希与承诺 | Poseidon2 置换、海绵哈希、Merkle 运算 |
 | 椭圆曲线计算 | BN254-G1 多标量乘法 |
 
-通过[加速器目录](https://github.com/XLxiaoliaoGmail/zk-accelerators)可查阅各模块的
+通过[加速器目录](https://github.com/OpenRTL-Lab/zk-accelerators)可查阅各模块的
 版本、源码、发布产物、接口与数学模型文档、参考模型及仿真测试。
 版本化发布示例：[Goldilocks NTT/INTT v1.1.0](https://github.com/XLxiaoliaoGmail/goldilocks-ntt-intt/releases/tag/v1.1.0)。
 

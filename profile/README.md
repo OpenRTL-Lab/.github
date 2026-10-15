@@ -1,3 +1,5 @@
+<img src="https://raw.githubusercontent.com/OpenRTL-Lab/.github/main/assets/openrtl-logo.png" width="96" height="96" alt="OpenRTL pixel logo: an open chip with the letter R">
+
 # OpenRTL
 
 **Open hardware, from algorithms to RTL.**
@@ -10,7 +12,7 @@ inspect and reproduce.
 
 ## Released projects
 
-### [ZK Hardware Accelerators](https://github.com/XLxiaoliaoGmail/zk-accelerators/blob/main/README.en.md)
+### [ZK Hardware Accelerators](https://github.com/OpenRTL-Lab/zk-accelerators/blob/main/README.en.md)
 
 A collection of **11 families of standalone Chisel accelerators** for
 zero-knowledge computation, with generated SystemVerilog and native interfaces
@@ -23,7 +25,7 @@ for integration into ASIC or FPGA designs.
 | Hashing and commitments | Poseidon2 permutation, sponge hashing, and Merkle operations |
 | Elliptic-curve computation | BN254-G1 multi-scalar multiplication |
 
-[Browse the accelerator catalogue](https://github.com/XLxiaoliaoGmail/zk-accelerators/blob/main/README.en.md)
+[Browse the accelerator catalogue](https://github.com/OpenRTL-Lab/zk-accelerators/blob/main/README.en.md)
 to find each module's version, source, released artifacts, interface and
 mathematical-model documentation, reference models, and simulation tests.
 An example versioned release is
