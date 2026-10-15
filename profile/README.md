@@ -32,7 +32,7 @@ for integration into ASIC or FPGA designs.
 to find each module's version, source, released artifacts, interface and
 mathematical-model documentation, reference models, and simulation tests.
 An example versioned release is
-[Goldilocks NTT/INTT v1.1.0](https://github.com/XLxiaoliaoGmail/goldilocks-ntt-intt/releases/tag/v1.1.0).
+[Goldilocks NTT/INTT v1.1.0](https://github.com/OpenRTL-Lab/goldilocks-ntt-intt/releases/tag/v1.1.0).
 
 Supported configurations, verification scope, performance measurements, and
 synthesis conditions are documented by each individual project. These are

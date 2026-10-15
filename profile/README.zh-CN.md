@@ -28,7 +28,7 @@ OpenRTL 发布开放、可复用、可验证的数字硬件，注重可读的 RT
 
 通过[加速器目录](https://github.com/OpenRTL-Lab/zk-accelerators)可查阅各模块的
 版本、源码、发布产物、接口与数学模型文档、参考模型及仿真测试。
-版本化发布示例：[Goldilocks NTT/INTT v1.1.0](https://github.com/XLxiaoliaoGmail/goldilocks-ntt-intt/releases/tag/v1.1.0)。
+版本化发布示例：[Goldilocks NTT/INTT v1.1.0](https://github.com/OpenRTL-Lab/goldilocks-ntt-intt/releases/tag/v1.1.0)。
 
 支持的配置、验证范围、性能测量和综合条件以各独立项目的文档为准。
 这些是独立计算模块，不是端到端零知识证明生成系统。
