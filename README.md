@@ -4,11 +4,12 @@
 
 [Official website](https://openrtl.top/) ·
 [GitHub organization](https://github.com/OpenRTL-Lab) ·
-[English profile](profile/README.md) ·
-[简体中文](profile/README.zh-CN.md)
+[English](profile/README.md#english) ·
+[简体中文](profile/README.md#简体中文)
 
-This repository contains OpenRTL's English-first public organization profile
-and Chinese entry point. Explore released Chisel/SystemVerilog accelerators,
+This repository contains OpenRTL's public organization profile in a single
+README: full English first, followed by full Chinese. Explore released
+Chisel/SystemVerilog accelerators,
 reproducible verification evidence, and custom ASIC/FPGA development inquiries
 on the [organization homepage](https://github.com/OpenRTL-Lab).
 
