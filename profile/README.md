@@ -31,6 +31,7 @@ engineering evidence. New series are listed here after release.
 | --- | --- | --- |
 | OpenZK | Goldilocks field arithmetic; NTT/INTT, LDE, FRI and Sumcheck/MLE; Poseidon2 and Merkle operations; BN254-G1 MSM | [Browse OpenZK accelerators](https://github.com/OpenRTL-Lab/OpenZK) |
 | OpenETH | Gigabit Ethernet controller and DMA; frame buffering and clock-domain crossing; MAC/CRC, RGMII and PHY management; Linux driver and test programs | [Explore OpenETH](https://github.com/OpenRTL-Lab/openeth) |
+| OpenImage | Image-codec hardware catalogue; PNG encoding and decoding; Chisel sources and generated SystemVerilog for ASIC/FPGA integration | [Explore OpenImage](https://github.com/OpenRTL-Lab/OpenImage) |
 
 The OpenZK series provides standalone Chisel accelerators, generated SystemVerilog,
 and native interfaces for integration into ASIC or FPGA designs.
@@ -40,6 +41,11 @@ OpenETH provides reusable Ethernet RTL and software, including Chisel and
 SystemVerilog sources, interface documentation, simulation tests and documented
 reference-board validation. Gigabit Ethernet describes the interface; measured
 application throughput and delivery limits are documented in the repository.
+
+OpenImage indexes standalone image-codec hardware, currently covering PNG
+encoding and decoding. The catalogue links to each project's source, interfaces
+and verification documentation; it is not a complete imaging system. Host
+control, DMA and system buffering require external integration.
 
 Module-specific releases and measurements are maintained by each series rather
 than duplicated on this organization page.

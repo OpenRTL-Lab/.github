@@ -27,6 +27,7 @@ OpenRTL 持续发布采用 MIT 许可的自研数字硬件，涵盖计算加速�
 | --- | --- | --- |
 | OpenZK | Goldilocks 有限域运算；NTT/INTT、LDE、FRI、Sumcheck/MLE；Poseidon2、Merkle 运算；BN254-G1 MSM | [浏览 OpenZK 加速器目录](https://github.com/OpenRTL-Lab/OpenZK/blob/main/README.zh-CN.md) |
 | OpenETH | 千兆以太网控制器与 DMA；整帧缓存与跨时钟域；MAC/CRC、RGMII、PHY 管理；Linux 驱动与测试程序 | [浏览 OpenETH 系列](https://github.com/OpenRTL-Lab/openeth/blob/main/README.zh-CN.md) |
+| OpenImage | 图像编解码硬件目录；PNG 编码与解码；面向 ASIC/FPGA 集成的 Chisel 源码与生成的 SystemVerilog | [浏览 OpenImage 系列](https://github.com/OpenRTL-Lab/OpenImage/blob/main/README.zh-CN.md) |
 
 OpenZK 系列提供独立的 Chisel 加速器、生成好的 SystemVerilog 和原生接口，
 供用户集成到 ASIC 或 FPGA 设计。系列索引链接至各模块的版本、源码、发布产物、
@@ -35,6 +36,10 @@ OpenZK 系列提供独立的 Chisel 加速器、生成好的 SystemVerilog 和�
 OpenETH 提供可复用的以太网 RTL 与软件，包括 Chisel 和 SystemVerilog 源码、
 接口文档、仿真测试及有记录的参考板验证。千兆以太网指接口规格，实际应用吞吐
 和交付范围以仓库文档为准。
+
+OpenImage 索引独立的图像编解码硬件，目前涵盖 PNG 编码与解码。
+目录链接至各项目的源码、接口和验证文档，并非完整成像系统；主机控制、
+DMA 和系统缓冲需外部集成。
 
 模块的具体版本和测量结果由各系列及对应仓库维护，不在组织首页重复罗列。
 

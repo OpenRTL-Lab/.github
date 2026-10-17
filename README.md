@@ -20,6 +20,7 @@ verified configurations, measured results and integration limits.
 
 [OpenZK accelerator catalogue](https://github.com/OpenRTL-Lab/OpenZK) ·
 [OpenETH Ethernet RTL and software](https://github.com/OpenRTL-Lab/openeth) ·
+[OpenImage image-codec hardware catalogue](https://github.com/OpenRTL-Lab/OpenImage) ·
 [Custom ASIC/FPGA development](https://openrtl.top/)
 
 Profile text is available under the [MIT License](LICENSE). Linked projects
