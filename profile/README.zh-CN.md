@@ -3,14 +3,17 @@
   <img src="https://raw.githubusercontent.com/OpenRTL-Lab/.github/main/assets/openrtl-logo.gif?v=4" width="128" height="128" alt="OpenRTL 绿色像素芯片：提取自 RapidRTL 首页原画">
 </picture>
 
-# OpenRTL
+# OpenRTL — 面向 ASIC 与 FPGA 的硬件加速器
 
 **从算法到 RTL，构建开放、可复用、可验证的数字硬件。**
 
 [English](https://github.com/OpenRTL-Lab/.github/blob/main/profile/README.md) · 简体中文
 
-OpenRTL 发布开放、可复用、可验证的数字硬件，注重可读的 RTL、实际集成需求，以及
-可供使用者检查和复现的验证证据。
+OpenRTL 持续发布 **MIT 许可的硬件加速器**，把算法变成可复用的 RTL，
+为 ASIC 与 FPGA 系统开发者提供已发布设计和可检查的工程证据。
+
+[浏览已发布加速器](#已发布项目) · [了解工程质量](#工程质量) ·
+[讨论 ASICFPGA 定制开发](#asicfpga-定制开发)
 
 ## 已发布项目
 
@@ -21,10 +24,10 @@ OpenRTL 发布开放、可复用、可验证的数字硬件，注重可读的 RT
 
 | 方向 | 加速器 |
 | --- | --- |
-| 有限域运算 | Goldilocks 素域与二次扩域向量运算、批量求逆 |
-| 多项式计算 | NTT/INTT、陪集 LDE、FRI 折叠、Sumcheck 与 MLE |
-| 哈希与承诺 | Poseidon2 置换、海绵哈希、Merkle 运算 |
-| 椭圆曲线计算 | BN254-G1 多标量乘法 |
+| 有限域运算 | [Goldilocks 素域向量](https://github.com/OpenRTL-Lab/prime-field-vector-goldilocks)、[二次扩域向量](https://github.com/OpenRTL-Lab/extension-field-vector-goldilocks)、[批量求逆](https://github.com/OpenRTL-Lab/batch-inversion-goldilocks) |
+| 多项式计算 | [NTT/INTT](https://github.com/OpenRTL-Lab/goldilocks-ntt-intt)、[陪集 LDE](https://github.com/OpenRTL-Lab/coset-lde-goldilocks)、[FRI 折叠](https://github.com/OpenRTL-Lab/fri-fold-goldilocks)、[Sumcheck 与 MLE](https://github.com/OpenRTL-Lab/sumcheck-mle-goldilocks) |
+| 哈希与承诺 | [Poseidon2 置换](https://github.com/OpenRTL-Lab/poseidon2-goldilocks)、[海绵哈希](https://github.com/OpenRTL-Lab/poseidon2-sponge)、[Merkle 运算](https://github.com/OpenRTL-Lab/merkle-goldilocks) |
+| 椭圆曲线计算 | [BN254-G1 多标量乘法（MSM）](https://github.com/OpenRTL-Lab/bn254-msm) |
 
 通过[加速器目录](https://github.com/OpenRTL-Lab/zk-accelerators)可查阅各模块的
 版本、源码、发布产物、接口与数学模型文档、参考模型及仿真测试。
@@ -40,7 +43,41 @@ OpenRTL 发布开放、可复用、可验证的数字硬件，注重可读的 RT
 - **明确的接口与验证边界**：说明协议、支持的配置和已报告结果的覆盖范围。
 - **容易移植**：保持可复用的模块边界，明确依赖和集成要求，便于适配不同目标系统。
 
+## 工程质量
+
+我们以**商业级性能与稳定性**为工程目标：让计算模块不仅能够演示算法，
+还便于评估、集成和维护。已发布作品是可供检查的工程能力证明，
+并不代表所有设计都已完成面向所有应用的量产认证。
+
+评估具体模块时，请沿仓库和 Release 文档查看：
+
+- **正确性与稳定性证据**：参考模型对照、已测配置、协议与边界场景覆盖、已知限制。
+- **有条件的性能数据**：工作负载、周期、吞吐、延迟、资源消耗，以及已报告的工具版本
+  和目标综合条件。仿真、综合与板级或硅后实测应分别理解。
+- **可复现与可集成性**：版本化 RTL、验证步骤、接口约定、依赖和移植约束。
+
+验证结论以相应版本、配置和目标为边界；可集成到 ASIC/FPGA，
+不等于每个设计均已流片、完成上板测试或适合任意应用。
+
+## ASIC/FPGA 定制开发
+
+如果你需要适配特定工作负载或系统的硬件加速器，欢迎通过
+[维护者 @XLxiaoliaoGmail 的 GitHub 主页](https://github.com/XLxiaoliaoGmail)
+了解并讨论 **ASIC/FPGA 加速器定制开发与集成**。
+上述已发布作品可作为评估技术适配性和工程能力的起点。
+
+可讨论的项目范围包括算法到 RTL 实现、数据通路与存储架构定制、接口适配、
+性能与资源优化，以及按约定需求开展验证。
+具体交付物、目标平台支持、验证范围和时间安排按项目另行确认。
+
+初步需求建议说明：算法与工作负载、ASIC 工艺或 FPGA 器件、接口、
+吞吐与延迟目标、面积与功耗约束、验证要求和交付时间。
+保密规格请通过另行约定的私密渠道交流，不要提交到公开 GitHub Issue。
+
 ## 开源许可
 
 OpenRTL 自研项目代码采用 **MIT 许可证**发布。
 各仓库中的文件及依赖以相应仓库的许可证和第三方声明为准。
+
+使用 MIT 许可代码进行商业用途，不以购买定制服务为前提。
+付费定制与支持是独立、可选的服务。
