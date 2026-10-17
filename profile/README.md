@@ -19,24 +19,19 @@ for engineers building ASIC and FPGA systems.
 
 ## Released projects
 
-### [ZK Hardware Accelerators](https://github.com/OpenRTL-Lab/zk-accelerators/blob/main/README.en.md)
+Start with a series catalogue to find released accelerators and their
+engineering evidence. New series are listed here after release.
 
-A collection of **11 families of standalone Chisel accelerators** for
-zero-knowledge (ZK) computation, with generated SystemVerilog and native
-interfaces for integration into ASIC or FPGA designs.
+| Released series | Scope | Catalogue |
+| --- | --- | --- |
+| ZK Hardware Accelerators | Goldilocks field arithmetic; NTT/INTT, LDE, FRI and Sumcheck/MLE; Poseidon2 and Merkle operations; BN254-G1 MSM | [Browse ZK accelerators](https://github.com/OpenRTL-Lab/zk-accelerators/blob/main/README.en.md) |
 
-| Area | Accelerators |
-| --- | --- |
-| Field arithmetic | [Goldilocks prime-field vectors](https://github.com/OpenRTL-Lab/prime-field-vector-goldilocks), [quadratic-extension vectors](https://github.com/OpenRTL-Lab/extension-field-vector-goldilocks), [batch inversion](https://github.com/OpenRTL-Lab/batch-inversion-goldilocks) |
-| Polynomial computation | [NTT/INTT](https://github.com/OpenRTL-Lab/goldilocks-ntt-intt), [coset LDE](https://github.com/OpenRTL-Lab/coset-lde-goldilocks), [FRI folding](https://github.com/OpenRTL-Lab/fri-fold-goldilocks), [Sumcheck & MLE](https://github.com/OpenRTL-Lab/sumcheck-mle-goldilocks) |
-| Hashing and commitments | [Poseidon2 permutation](https://github.com/OpenRTL-Lab/poseidon2-goldilocks), [Poseidon2 sponge](https://github.com/OpenRTL-Lab/poseidon2-sponge), [Merkle operations](https://github.com/OpenRTL-Lab/merkle-goldilocks) |
-| Elliptic-curve computation | [BN254-G1 multi-scalar multiplication (MSM)](https://github.com/OpenRTL-Lab/bn254-msm) |
-
-[Browse the accelerator catalogue](https://github.com/OpenRTL-Lab/zk-accelerators/blob/main/README.en.md)
-to find each module's version, source, released artifacts, interface and
-mathematical-model documentation, reference models, and simulation tests.
-An example versioned release is
-[Goldilocks NTT/INTT v1.1.0](https://github.com/OpenRTL-Lab/goldilocks-ntt-intt/releases/tag/v1.1.0).
+The ZK series provides standalone Chisel accelerators, generated SystemVerilog,
+and native interfaces for integration into ASIC or FPGA designs.
+Its catalogue links to each module's versions, source, released artifacts,
+interface and mathematical-model documentation, reference models, and tests.
+Module-specific releases and measurements are maintained there rather than
+duplicated on this organization page.
 
 Supported configurations, verification scope, performance measurements, and
 synthesis conditions are documented by each individual project. These are

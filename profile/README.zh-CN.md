@@ -17,21 +17,16 @@ OpenRTL 持续发布 **MIT 许可的硬件加速器**，把算法变成可复用
 
 ## 已发布项目
 
-### [ZK 硬件加速器集合](https://github.com/OpenRTL-Lab/zk-accelerators)
+从系列索引进入，查找已发布的加速器和工程证据。新系列在正式发布后加入本页。
 
-涵盖 **11 类独立的 Chisel 零知识计算加速器**，提供生成好的 SystemVerilog，
-通过原生接口供用户集成到 ASIC 或 FPGA 设计。
+| 已发布系列 | 覆盖方向 | 索引 |
+| --- | --- | --- |
+| ZK 硬件加速器 | Goldilocks 有限域运算；NTT/INTT、LDE、FRI、Sumcheck/MLE；Poseidon2、Merkle 运算；BN254-G1 MSM | [浏览 ZK 加速器目录](https://github.com/OpenRTL-Lab/zk-accelerators) |
 
-| 方向 | 加速器 |
-| --- | --- |
-| 有限域运算 | [Goldilocks 素域向量](https://github.com/OpenRTL-Lab/prime-field-vector-goldilocks)、[二次扩域向量](https://github.com/OpenRTL-Lab/extension-field-vector-goldilocks)、[批量求逆](https://github.com/OpenRTL-Lab/batch-inversion-goldilocks) |
-| 多项式计算 | [NTT/INTT](https://github.com/OpenRTL-Lab/goldilocks-ntt-intt)、[陪集 LDE](https://github.com/OpenRTL-Lab/coset-lde-goldilocks)、[FRI 折叠](https://github.com/OpenRTL-Lab/fri-fold-goldilocks)、[Sumcheck 与 MLE](https://github.com/OpenRTL-Lab/sumcheck-mle-goldilocks) |
-| 哈希与承诺 | [Poseidon2 置换](https://github.com/OpenRTL-Lab/poseidon2-goldilocks)、[海绵哈希](https://github.com/OpenRTL-Lab/poseidon2-sponge)、[Merkle 运算](https://github.com/OpenRTL-Lab/merkle-goldilocks) |
-| 椭圆曲线计算 | [BN254-G1 多标量乘法（MSM）](https://github.com/OpenRTL-Lab/bn254-msm) |
-
-通过[加速器目录](https://github.com/OpenRTL-Lab/zk-accelerators)可查阅各模块的
-版本、源码、发布产物、接口与数学模型文档、参考模型及仿真测试。
-版本化发布示例：[Goldilocks NTT/INTT v1.1.0](https://github.com/OpenRTL-Lab/goldilocks-ntt-intt/releases/tag/v1.1.0)。
+ZK 系列提供独立的 Chisel 加速器、生成好的 SystemVerilog 和原生接口，
+供用户集成到 ASIC 或 FPGA 设计。系列索引链接至各模块的版本、源码、发布产物、
+接口与数学模型文档、参考模型及测试。
+模块的具体版本和测量结果由系列索引及对应仓库维护，不在组织首页重复罗列。
 
 支持的配置、验证范围、性能测量和综合条件以各独立项目的文档为准。
 这些是独立计算模块，不是端到端零知识证明生成系统。
