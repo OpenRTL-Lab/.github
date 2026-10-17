@@ -7,7 +7,7 @@
 
 **Open hardware, from algorithms to RTL.**
 
-English · [简体中文](https://github.com/OpenRTL-Lab/.github/blob/main/profile/README.zh-CN.md)
+[Website](https://openrtl.top/) · English · [简体中文](https://github.com/OpenRTL-Lab/.github/blob/main/profile/README.zh-CN.md)
 
 MIT-licensed hardware accelerators, from algorithms to reusable RTL.
 OpenRTL brings together released designs and inspectable engineering evidence
@@ -15,7 +15,7 @@ for engineers building ASIC and FPGA systems.
 
 [Explore released accelerators](#released-projects) ·
 [Review engineering evidence](#engineering-quality) ·
-[Discuss a custom ASIC or FPGA design](#custom-asic--fpga-development)
+[Discuss a custom ASIC or FPGA design](https://openrtl.top/)
 
 ## Released projects
 
@@ -76,8 +76,9 @@ board-tested, or qualified for every application.
 ## Custom ASIC & FPGA development
 
 Need a hardware accelerator tailored to your workload or system?
-[Contact the maintainer, @XLxiaoliaoGmail](https://github.com/XLxiaoliaoGmail),
-to discuss **custom ASIC/FPGA accelerator development** and integration.
+[Visit the OpenRTL Lab website](https://openrtl.top/) for service information
+and contact details to discuss **custom ASIC/FPGA accelerator development**
+and integration.
 The released designs above provide a starting point for evaluating fit and
 engineering capability.
 

@@ -7,13 +7,13 @@
 
 **从算法到 RTL，构建开放、可复用、可验证的数字硬件。**
 
-[English](https://github.com/OpenRTL-Lab/.github/blob/main/profile/README.md) · 简体中文
+[官方网站](https://openrtl.top/) · [English](https://github.com/OpenRTL-Lab/.github/blob/main/profile/README.md) · 简体中文
 
 OpenRTL 持续发布 **MIT 许可的硬件加速器**，把算法变成可复用的 RTL，
 为 ASIC 与 FPGA 系统开发者提供已发布设计和可检查的工程证据。
 
 [浏览已发布加速器](#已发布项目) · [了解工程质量](#工程质量) ·
-[讨论 ASICFPGA 定制开发](#asicfpga-定制开发)
+[讨论 ASIC/FPGA 定制开发](https://openrtl.top/)
 
 ## 已发布项目
 
@@ -62,8 +62,8 @@ OpenRTL 持续发布 **MIT 许可的硬件加速器**，把算法变成可复用
 ## ASIC/FPGA 定制开发
 
 如果你需要适配特定工作负载或系统的硬件加速器，欢迎通过
-[维护者 @XLxiaoliaoGmail 的 GitHub 主页](https://github.com/XLxiaoliaoGmail)
-了解并讨论 **ASIC/FPGA 加速器定制开发与集成**。
+[OpenRTL Lab 官方网站](https://openrtl.top/)查看服务介绍和联系方式，
+讨论 **ASIC/FPGA 加速器定制开发与集成**。
 上述已发布作品可作为评估技术适配性和工程能力的起点。
 
 可讨论的项目范围包括算法到 RTL 实现、数据通路与存储架构定制、接口适配、
