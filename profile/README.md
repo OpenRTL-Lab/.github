@@ -5,23 +5,26 @@ English · [简体中文](https://github.com/OpenRTL-Lab/.github/blob/main/profi
   <img src="https://raw.githubusercontent.com/OpenRTL-Lab/.github/main/assets/openrtl-logo.gif?v=4" width="128" height="128" alt="OpenRTL green pixel chip: original RapidRTL homepage artwork">
 </picture>
 
-# OpenRTL — Hardware Accelerators for ASIC & FPGA
+# OpenRTL — MIT-Licensed Digital Hardware
 
-**Open hardware, from algorithms to RTL.**
+**From algorithms to RTL: high-performance, reliable digital hardware for commercial applications.**
 
 [Website](https://openrtl.top/)
 
-MIT-licensed hardware accelerators, from algorithms to reusable RTL.
-OpenRTL brings together released designs and inspectable engineering evidence
-for engineers building ASIC and FPGA systems.
+OpenRTL develops and publishes original digital hardware under the MIT License.
+Our released portfolio includes compute accelerators, controllers and interfaces,
+with reusable RTL, reproducible verification and inspectable engineering evidence.
 
-[Explore released accelerators](#released-projects) ·
+For ASIC and FPGA systems, we provide reusable designs and optional custom
+development and integration services.
+
+[Explore released projects](#released-projects) ·
 [Review engineering evidence](#engineering-quality) ·
 [Discuss a custom ASIC or FPGA design](https://openrtl.top/)
 
 ## Released projects
 
-Start with a series catalogue to find released accelerators and their
+Start with a series catalogue to find released hardware designs and their
 engineering evidence. New series are listed here after release.
 
 | Released series | Scope | Catalogue |
@@ -57,8 +60,8 @@ contains standalone compute blocks, not an end-to-end zero-knowledge prover.
 
 ## Engineering quality
 
-Our goal is **commercial-grade performance and reliability**: useful compute
-blocks that can be evaluated, integrated, and maintained—not just algorithm
+Our goal is **commercial-grade performance and reliability**: useful hardware
+designs that can be evaluated, integrated, and maintained—not just algorithm
 demonstrations. The released portfolio is an inspectable record of engineering
 capability, not a blanket production-readiness claim.
 
@@ -78,9 +81,9 @@ board-tested, or qualified for every application.
 
 ## Custom ASIC & FPGA development
 
-Need a hardware accelerator tailored to your workload or system?
+Need digital hardware tailored to your workload or system?
 [Visit the OpenRTL Lab website](https://openrtl.top/) for service information
-and contact details to discuss **custom ASIC/FPGA accelerator development**
+and contact details to discuss **custom ASIC/FPGA hardware development**
 and integration.
 The released designs above provide a starting point for evaluating fit and
 engineering capability.
