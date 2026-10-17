@@ -25,10 +25,10 @@ OpenRTL 持续发布采用 MIT 许可的自研数字硬件，涵盖计算加速�
 
 | 已发布系列 | 覆盖方向 | 索引 |
 | --- | --- | --- |
-| ZK 硬件加速器 | Goldilocks 有限域运算；NTT/INTT、LDE、FRI、Sumcheck/MLE；Poseidon2、Merkle 运算；BN254-G1 MSM | [浏览 ZK 加速器目录](https://github.com/OpenRTL-Lab/zk-accelerators) |
+| OpenZK | Goldilocks 有限域运算；NTT/INTT、LDE、FRI、Sumcheck/MLE；Poseidon2、Merkle 运算；BN254-G1 MSM | [浏览 OpenZK 加速器目录](https://github.com/OpenRTL-Lab/OpenZK/blob/main/README.zh-CN.md) |
 | OpenETH | 千兆以太网控制器与 DMA；整帧缓存与跨时钟域；MAC/CRC、RGMII、PHY 管理；Linux 驱动与测试程序 | [浏览 OpenETH 系列](https://github.com/OpenRTL-Lab/openeth/blob/main/README.zh-CN.md) |
 
-ZK 系列提供独立的 Chisel 加速器、生成好的 SystemVerilog 和原生接口，
+OpenZK 系列提供独立的 Chisel 加速器、生成好的 SystemVerilog 和原生接口，
 供用户集成到 ASIC 或 FPGA 设计。系列索引链接至各模块的版本、源码、发布产物、
 接口与数学模型文档、参考模型及测试。
 
@@ -39,7 +39,7 @@ OpenETH 提供可复用的以太网 RTL 与软件，包括 Chisel 和 SystemVeri
 模块的具体版本和测量结果由各系列及对应仓库维护，不在组织首页重复罗列。
 
 支持的配置、验证范围、性能测量和综合条件以各独立项目的文档为准。
-ZK 系列中的计算模块相互独立，并非端到端零知识证明生成系统。
+OpenZK 系列中的计算模块相互独立，并非端到端零知识证明生成系统。
 
 ## 工程原则
 

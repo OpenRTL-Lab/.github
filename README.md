@@ -18,7 +18,7 @@ accelerators, controllers and interfaces, with commercial-grade performance
 and reliability as engineering goals. Project documentation defines the
 verified configurations, measured results and integration limits.
 
-[ZK accelerator catalogue](https://github.com/OpenRTL-Lab/zk-accelerators/blob/main/README.en.md) ·
+[OpenZK accelerator catalogue](https://github.com/OpenRTL-Lab/OpenZK) ·
 [OpenETH Ethernet RTL and software](https://github.com/OpenRTL-Lab/openeth) ·
 [Custom ASIC/FPGA development](https://openrtl.top/)
 

@@ -29,10 +29,10 @@ engineering evidence. New series are listed here after release.
 
 | Released series | Scope | Catalogue |
 | --- | --- | --- |
-| ZK Hardware Accelerators | Goldilocks field arithmetic; NTT/INTT, LDE, FRI and Sumcheck/MLE; Poseidon2 and Merkle operations; BN254-G1 MSM | [Browse ZK accelerators](https://github.com/OpenRTL-Lab/zk-accelerators/blob/main/README.en.md) |
+| OpenZK | Goldilocks field arithmetic; NTT/INTT, LDE, FRI and Sumcheck/MLE; Poseidon2 and Merkle operations; BN254-G1 MSM | [Browse OpenZK accelerators](https://github.com/OpenRTL-Lab/OpenZK) |
 | OpenETH | Gigabit Ethernet controller and DMA; frame buffering and clock-domain crossing; MAC/CRC, RGMII and PHY management; Linux driver and test programs | [Explore OpenETH](https://github.com/OpenRTL-Lab/openeth) |
 
-The ZK series provides standalone Chisel accelerators, generated SystemVerilog,
+The OpenZK series provides standalone Chisel accelerators, generated SystemVerilog,
 and native interfaces for integration into ASIC or FPGA designs.
 Its catalogue links to each module's versions, source, released artifacts,
 interface and mathematical-model documentation, reference models, and tests.
@@ -45,7 +45,7 @@ Module-specific releases and measurements are maintained by each series rather
 than duplicated on this organization page.
 
 Supported configurations, verification scope, performance measurements, and
-synthesis conditions are documented by each individual project. The ZK series
+synthesis conditions are documented by each individual project. The OpenZK series
 contains standalone compute blocks, not an end-to-end zero-knowledge prover.
 
 ## Engineering principles
